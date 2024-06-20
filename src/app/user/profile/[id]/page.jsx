@@ -1,9 +1,13 @@
+
 import React from 'react'
 
-const MyProfile = () => {
+const MyProfile = ({params}) => {
+    console.log(params);
+    console.log("daniyal");
+
   return (
-    <div>
-        MyProfile
+    <div>my client id is {
+      params.id}
     </div>
   )
 }
