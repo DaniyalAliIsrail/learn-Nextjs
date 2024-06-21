@@ -1,13 +1,15 @@
-import left from "./@left/page";
-import right from "./@right/page";
 
-export default function parallelroutes({ children,left,right }) {
-  return (
-    <section>
-      parallelroutes
-      {children}
-      {left}
-      {right}
-    </section>
-  );
+export default function ({children,left,right}){
+  const conditionRendering = true;
+return(
+  <section>
+  
+    {children}
+    {/* {left}
+    {right} */}
+    {
+      conditionRendering ? right :left
+    }
+  </section>
+)
 }

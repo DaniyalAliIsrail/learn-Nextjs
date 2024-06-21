@@ -2,7 +2,7 @@ import React from 'react'
 
 const left = () => {
   return (
-    <div>page</div>
+    <div>left side bar</div>
   )
 }
 
