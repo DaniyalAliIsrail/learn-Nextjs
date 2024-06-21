@@ -14,7 +14,7 @@ const LearnLink = () => {
             </br>
             <br>
             </br>
-            <Link href={`/user/profile/${id}`}> move to user profile </Link>
+            <Link href={`/user/profile/${id}`}> move to user profile using dynamic link </Link>
     </div>
   )
 }

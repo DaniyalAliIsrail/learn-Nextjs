@@ -1,4 +1,3 @@
-
 import React from 'react'
 
 const MyProfile = ({params}) => {
@@ -11,4 +10,5 @@ const MyProfile = ({params}) => {
     </div>
   )
 }
+
 export default MyProfile
