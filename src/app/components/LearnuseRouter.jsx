@@ -7,7 +7,7 @@ const LearnuseRouter = () => {
     console.log("Router",router);
   return (
     <div>
-        //router.push redirect krdeta js page pr ap jana chahay
+        {/* router.push("/abc/xyz") redirect krdeta js page pr ap jana chahay */}
         <button type="button" onClick={()=> router.push("/admin/dashboard")}>go to admin dashboard useing useRouter</button>
     </div>
   )

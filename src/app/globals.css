@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.my-text-60{
+  font-size: 40px;
+}
+
+.my-text-80{
+  font-size: 75px;
+}
