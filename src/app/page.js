@@ -2,6 +2,7 @@ import Image from "next/image";
 import LearnLink from "./components/LearnLink";
 import LearnuseRouter from "./components/LearnuseRouter";
 import LernuseGlobalcss from "./components/LernuseGlobalcss";
+import LearnModuleCss from "./components/LearnModuleCss";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <br></br>
       <LearnuseRouter/>
       <LernuseGlobalcss/>
+      < LearnModuleCss/>
      </div>
     </main>
   );
